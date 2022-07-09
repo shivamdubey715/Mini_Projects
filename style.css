@@ -14,3 +14,14 @@ h1 {
 h3{
     color: rgb(5, 128, 42);
 }
+.temp{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(195, 157, 229);
+}
+.temp1{
+    background-color: red;
+}
+img:hover{
+    background-color: rgb(34, 3, 3);
+}
