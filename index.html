@@ -6,72 +6,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shivam's Personal Site</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <table cellspacing='10'>
-        <tr>
-            <td><img src="image.png" width=170px alt="Shivam's profile photo"></td>
-            <td>
-                <h1>Shivamkumar Ajaykumar Dubey</h1>
-                <p>Aspiring Computer Scienec Student</p>
-                <p><em>I'm an athlete-tech guy pursuing BE from Savitribai Phule Pune University and also love to play
-                        Ultimate
-                        Frisbee</em></p>
-            </td>
-        </tr>
-    </table>
-    <a href="ContactMe.html">Contact Me</a>
-    <hr>
-    <h3>Education</h3>
-    <table class="temp">
-        <tr>
-            <th class="temp1">School/College</th>
-            <th class="temp1">Year</th>
-            <th class="temp1">Score/Percentage</th>
-        </tr>
-        <tr>
-            <td class="temp">Sinhgad Spring Dale High School</td>
-            <td class="temp">2019</td>
-            <td class="temp">81.20%</td>
-        </tr>
-        <tr>
-            <td class="temp">Sinhgad Spring Dale High School</td>
-            <td class="temp">2019-2021</td>
-            <td class="temp">88.60%</td>
-        </tr>
-        <tr>
-            <td class="temp">Savitribai Phule Pune University</td>
-            <td class="temp">2025</td>
-            <td class="temp">8.91CGPA(1st semester)</td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Courses</h3>
-    <ul>
-        <li><a
-                href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#:~:text=About%20this%20course,-Skip%20About%20this&text=This%20is%20CS50x%20%2C%20Harvard%20University's,course%20taught%20by%20David%20J.">CS50's
-                Introduction to Computer Science</a></li>
-        <li><a href="https://www.youtube.com/playlist?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR">C/C++</a>
-        </li>
-        <li><a href="https://www.geeksforgeeks.org/data-structures/">Data Structures</a></li>
-        <li><a href="https://www.youtube.com/playlist?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi">Algorithm</a>
-        </li>
-        <li><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">Web
-                Development</a>
-        </li>
 
-    </ul>
-    <hr>
-    <h3>Websites</h3>
-    <ol>
-        <li><a href="https://www.codechef.com/users/shivamkumar727">Codechef</a></li>
-        <li><a href="https://codeforces.com/profile/Shivamkumar_Dubey">Codeforces</a></li>
-        <li><a href="https://atcoder.jp/users/shivammessi">AtCoder</a></li>
-        <li><a href="https://auth.geeksforgeeks.org/user/shivammessi07/practice/">GeeksforGeeks</a></li>
-        <li><a href="https://leetcode.com/Shivam_Dubey_10/">leetcode</a></li>
-    </ol>
+
+<body>
+    <section id="title">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#"><button class="text-bg-primary">HOME</button></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <button class="navbar-toggler-item" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"> -->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="ContactMe.html"><b>ContactMe</b></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- <a href="ContactMe.html" ><button class="btn btn-primary">Contact Me</button></a> -->
+
+        <table cellspacing='10'>
+            <tr>
+                <td><img src="image.png" width=170px alt="Shivam's profile photo"></td>
+                <td>
+                    <h1 id="heading1">Shivamkumar Ajaykumar Dubey</h1>
+                    <p>Aspiring Computer Scienec Student</p>
+                    <p><em>I'm an athlete-tech guy pursuing BE from Savitribai Phule Pune University and also love to
+                            play
+                            Ultimate
+                            Frisbee</em></p>
+                </td>
+            </tr>
+        </table>
+
+        <hr>
+        <h3>Education</h3>
+        <table class="temp">
+            <tr>
+                <th class="temp1">School/College</th>
+                <th class="temp1">Year</th>
+                <th class="temp1">Score/Percentage</th>
+            </tr>
+            <tr>
+                <td class="temp">Sinhgad Spring Dale High School</td>
+                <td class="temp">2019</td>
+                <td class="temp">81.20%</td>
+            </tr>
+            <tr>
+                <td class="temp">Sinhgad Spring Dale High School</td>
+                <td class="temp">2019-2021</td>
+                <td class="temp">88.60%</td>
+            </tr>
+            <tr>
+                <td class="temp">Savitribai Phule Pune University</td>
+                <td class="temp">2025</td>
+                <td class="temp">8.91CGPA(1st semester)</td>
+            </tr>
+        </table>
+        <hr>
+        <h3>Courses</h3>
+        <ul>
+            <li><a
+                    href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#:~:text=About%20this%20course,-Skip%20About%20this&text=This%20is%20CS50x%20%2C%20Harvard%20University's,course%20taught%20by%20David%20J.">CS50's
+                    Introduction to Computer Science</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR">C/C++</a>
+            </li>
+            <li><a href="https://www.geeksforgeeks.org/data-structures/">Data Structures</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi">Algorithm</a>
+            </li>
+            <li><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">Web
+                    Development</a>
+            </li>
+
+        </ul>
+        <hr>
+        <h3>Websites</h3>
+        <ol>
+            <li><a href="https://www.codechef.com/users/shivamkumar727">Codechef</a></li>
+            <li><a href="https://codeforces.com/profile/Shivamkumar_Dubey">Codeforces</a></li>
+            <li><a href="https://atcoder.jp/users/shivammessi">AtCoder</a></li>
+            <li><a href="https://auth.geeksforgeeks.org/user/shivammessi07/practice/">GeeksforGeeks</a></li>
+            <li><a href="https://leetcode.com/Shivam_Dubey_10/">leetcode</a></li>
+        </ol>
+    </section>
 </body>
 
 </html>
