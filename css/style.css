@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat:wght@900&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    /* background-color: red; */
+    background-color: rgb(223, 218, 218);
+    width: 12vw;
+    font-family: 'fira sans', sans-serif;
+}
+
+.sidebar nav {
+    padding: 20px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 23px;
+    padding: 33px;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background-color: #f6ebf4;
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+    height: 90vh;
+}
+
+.InfoContainer {
+    /* background-color: blueviolet; */
+    height: 58vh;
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.devPic img {
+    height: 58vh;
+}
+
+.hello {
+    font-size: 65px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.name {
+    font-weight: bold;
+    font-family: 'fira sans', sans-serif;
+    font-size: 50px;
+    color: #482673;
+}
+
+.about {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 40px;
+}
+
+.moreabout {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 22px;
+}
+
+.btn {
+    padding: 9px 14px;
+    margin: 0 3px;
+    border-radius: 22px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 21px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn-sm {
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.contactform {
+    border-style: calc();
+    border-width: 80%;
+    background-color: #f6ebf4;
+    padding: 0 34px;
+    font-family: 'fira sans', sans-serif;
+}
+
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    padding-left: 7rem;
+}
+
+.contactform form div input {
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0 0;
+    padding: 3px;
+}
+
+.contactform hr {
+    margin-left: 335px;
+    margin-right: 333px;
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+}
+
+/* #emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+    
+} */
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+/* About section */
+.title h1 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.section {
+    background-color: #f6ebf4;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    /* background-color: #ddd; */
+}
+
+.container2 {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section {
+    float: right;
+    width: 55%;
+}
+
+.image-section {
+    float: left;
+    width: 40%;
+}
+
+.image-section img {
+    border-radius: 100%;
+    width: 100%;
+    height: 40%;
+    margin-bottom: 2rem;
+}
+
+.content-section .title {
+    text-decoration: uppercase;
+    font-size: 28px;
+
+}
+
+.content-section .content h3 {
+    margin-top: 20px;
+    color: #5d5d5d;
+}
+
+.content-section .content p {
+    font-family: 'fira sans', sans-serif;
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.content-section .social {
+    margin-top: 40px;
+}
+
+.content-section .social i {
+    color: #a52a2a;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.content-section .social i:hover {
+    color: #3d3d3d;
+}
